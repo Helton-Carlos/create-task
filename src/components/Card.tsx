@@ -1,13 +1,16 @@
-import { useState } from 'react'
+type TCard = {
+  title: string,
+  subtitle: string
+}
 
-function Card() {
-    const [name, setCount] = useState<string>('Create task')
+function Card(props: TCard) {
 
-    return (
-        <div className="underline">
-            <h1>{name}</h1>
-        </div>
-    )
+  return (
+    <div className="bg-white w-[350px] shadow border-b-2">
+      <h1>{ props.title }</h1>
+      <p>{ props.subtitle }</p>
+    </div>
+  )
 }
 
 export default Card

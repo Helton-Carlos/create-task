@@ -1,11 +1,13 @@
-import Card from "./components/Card"
-import Main from "./layout/main"
+import Index from "./pages/Index"
+import Main from "./layout/Main"
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Main />
-      <Card />
+      <div className="m-4">
+        <Index />
+      </div>
     </div>
   )
 }
