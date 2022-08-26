@@ -4,7 +4,6 @@ type TCard = {
 }
 
 function Card(props: TCard) {
-
   return (
     <div className="bg-white w-[350px] shadow border-b-2">
       <h1>{ props.title }</h1>

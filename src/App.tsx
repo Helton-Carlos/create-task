@@ -1,11 +1,11 @@
 import Index from "./pages/Index"
-import Main from "./layout/Main"
+import Menu from "./layout/Menu"
 
 function App() {
   return (
-    <div>
-      <Main />
-      <div className="m-4">
+    <div className="flex">
+      <Menu />
+      <div className="m-9">
         <Index />
       </div>
     </div>
