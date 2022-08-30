@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="flex">
       <Menu />
-      <div className="m-9">
+      <div className="m-9 w-full">
         <Index />
       </div>
     </div>
