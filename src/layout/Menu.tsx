@@ -1,7 +1,7 @@
 import logo from '../assets/logo.svg'
 import { BeakerIcon } from '@heroicons/react/24/solid'
 
-function Menu() {
+export function Menu() {
   return (
     <div className="bg-white w-[302px] h-screen border-2 text-center">
       <div className='p-8'>
@@ -14,5 +14,3 @@ function Menu() {
     </div>
   )
 }
-
-export default Menu

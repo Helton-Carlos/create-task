@@ -1,6 +1,6 @@
 
 import { AppRoutes } from "./Routes"
-import Menu from "./layout/Menu"
+import { Menu } from "./layout/Menu"
 
 function App() {
   return (
