@@ -1,7 +1,7 @@
 import Card from "../components/Card"
 import { useState } from 'react'
 
-function Index() {
+export function Index() {
   const [name, setName] = useState<string>('Talita')
   
   return (
@@ -12,4 +12,3 @@ function Index() {
   )
 }
 
-export default Index

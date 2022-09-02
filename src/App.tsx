@@ -1,5 +1,5 @@
 
-import { Routes } from "./Routes"
+import { AppRoutes } from "./Routes"
 import Menu from "./layout/Menu"
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <div className="flex">
       <Menu />
       <div className="m-9 w-full">
-      <Routes />
+        <AppRoutes />
       </div>
     </div>
   )
