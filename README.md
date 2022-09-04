@@ -2,7 +2,7 @@
 
 **💬 About.** 
 
-Sparkle projeto de gerenciamento. React js, Vite, Typescript, Tailwind CSS e bibliotecas adicionais.
+create-task gerenciamento. React js, Vite, Typescript, Tailwind CSS e bibliotecas adicionais.
 
 **👇 Follow the steps.** 
 
