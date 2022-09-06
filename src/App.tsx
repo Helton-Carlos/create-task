@@ -4,10 +4,10 @@ import {
   Route,
 } from 'react-router-dom'
 
+import { Menu } from "./layout/Menu";
 import { Index } from './pages/Index';
 import { Product } from "./pages/Product";
 
-import { Menu } from "./layout/Menu";
 function App() {
   return (
     <div className="flex">
