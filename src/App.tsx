@@ -7,6 +7,9 @@ import {
 import { Menu } from "./layout/Menu";
 import { Index } from './pages/Index';
 import { Product } from "./pages/Product";
+import { Customers } from './pages/Customers';
+import { Income } from "./pages/Income";
+import { Promote } from "./pages/Promote";
 
 function App() {
   return (
@@ -17,6 +20,9 @@ function App() {
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/product" element={<Product />} />
+            <Route path="/customers" element={<Customers />} />
+            <Route path="/income" element={<Income />} />
+            <Route path="/promote" element={<Promote />} />
           </Routes>
         </div>
       </Router>

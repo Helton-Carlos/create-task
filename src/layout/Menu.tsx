@@ -18,15 +18,15 @@ export function Menu() {
           <AiFillShop className='mr-2' /> Product
         </Link>
 
-        <Link to="/" className='flex items-center text-gray-500 font-medium my-2 mx-6 px-4 py-2 hover:bg-indigo-500 hover:rounded-3xl hover:text-white'>
+        <Link to="/Customers" className='flex items-center text-gray-500 font-medium my-2 mx-6 px-4 py-2 hover:bg-indigo-500 hover:rounded-3xl hover:text-white'>
           <FaHospitalUser className='mr-2' /> Customers
         </Link>
 
-        <Link to="/" className='flex items-center text-gray-500 font-medium my-2 mx-6 px-4 py-2 hover:bg-indigo-500 hover:rounded-3xl hover:text-white'>
+        <Link to="/Income" className='flex items-center text-gray-500 font-medium my-2 mx-6 px-4 py-2 hover:bg-indigo-500 hover:rounded-3xl hover:text-white'>
           <RiMoneyDollarCircleFill className='mr-2' /> Income
         </Link>
 
-        <Link to="/" className='flex items-center text-gray-500 font-medium my-2 mx-6 px-4 py-2 hover:bg-indigo-500 hover:rounded-3xl hover:text-white'>
+        <Link to="/Promote" className='flex items-center text-gray-500 font-medium my-2 mx-6 px-4 py-2 hover:bg-indigo-500 hover:rounded-3xl hover:text-white'>
           <AiFillCreditCard className='mr-2' /> Promote
         </Link>
       </div>
