@@ -14,8 +14,8 @@ export function Menu() {
           <BsFillBookmarkDashFill className='mr-2' /> Dashboard
         </Link>
 
-        <Link to="/Product" className='flex items-center text-gray-500 font-medium my-2 mx-6 px-4 py-2 hover:bg-indigo-500 hover:rounded-3xl hover:text-white'>
-          <AiFillShop className='mr-2' /> Product
+        <Link to="/Task" className='flex items-center text-gray-500 font-medium my-2 mx-6 px-4 py-2 hover:bg-indigo-500 hover:rounded-3xl hover:text-white'>
+          <AiFillShop className='mr-2' /> Task
         </Link>
 
         <Link to="/Customers" className='flex items-center text-gray-500 font-medium my-2 mx-6 px-4 py-2 hover:bg-indigo-500 hover:rounded-3xl hover:text-white'>
