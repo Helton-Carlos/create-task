@@ -1,9 +1,17 @@
 import Search from "../components/Search"
 import Card from "../components/Card"
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
+import axios from "axios";
 
 export function Index() {
   const [name, setName] = useState<string>('Talita')
+
+  useEffect(() => {
+    axios.get("/api/reminders").then((response) => {
+      console.log
+        (response.data);
+    });
+  }, []);
 
   return (
     <div>
