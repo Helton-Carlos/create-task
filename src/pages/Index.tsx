@@ -2,9 +2,10 @@ import Search from "../components/Search"
 import Card from "../components/Card"
 import { useState, useEffect } from 'react'
 import axios from "axios";
+import CardTask from "../components/CardTask";
 
 export function Index() {
-  const [name, setName] = useState<string>('Talita')
+  const [name, setName] = useState<string>('Alberth')
 
   useEffect(() => {
     axios.get("/api/reminders").then((response) => {
@@ -20,7 +21,7 @@ export function Index() {
         <Search />
       </div>
 
-      <Card title='name' subtitle='name2' />
+      <CardTask name='Alberth' func='Web Design' />
     </div>
   )
 }
