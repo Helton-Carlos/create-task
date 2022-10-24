@@ -8,7 +8,7 @@ export function Index() {
   const [name, setName] = useState<string>('Alberth')
 
   useEffect(() => {
-    axios.get("/api/reminders").then((response) => {
+    axios.get("/api/users").then((response) => {
       console.log
         (response.data);
     });
