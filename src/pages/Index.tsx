@@ -21,7 +21,10 @@ export function Index() {
         <Search />
       </div>
 
-      <CardTask name='Alberth' func='Web Design' />
+      <div className="w-3/4 flex justify-between gap-2">
+        <CardTask name='Alberth' func='Web Design' />
+        <Card title="Alberth" subtitle="string" />
+      </div>
     </div>
   )
 }
