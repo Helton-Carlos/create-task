@@ -6,11 +6,12 @@ import CardTask from "../components/CardTask";
 
 export function Index() {
   const [name, setName] = useState<string>('Alberth')
+  const [reminder, setReminder] = useState<string[]>([])
 
   useEffect(() => {
-    axios.get("/api/users").then((response) => {
-      console.log
-        (response.data);
+    axios.get("/api/cards").then((response) => {
+      const { index } = response.data
+      console.log(index)
     });
   }, []);
 
@@ -21,7 +22,7 @@ export function Index() {
         <Search />
       </div>
 
-      <div className="w-3/4 flex justify-between gap-2">
+      <div className="flex justify-between">
         <CardTask name='Alberth' func='Web Design' />
         <Card title="Alberth" subtitle="string" />
       </div>

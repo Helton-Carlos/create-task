@@ -8,16 +8,16 @@ export function makeServer({ environment = "test" } = {}) {
       user: Model,
     },
 
-    seeds(server) {
-      server.create("user", { name: "Bob" })
-    },
-
     routes() {
       this.namespace = "api"
 
-      this.get("/users", (schema) => {
-        return schema.users.all()
-      })
+      this.get("cards", () => ({
+        index: [
+          { id: 1, title: "good morning", subtitle: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores deserunt ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis pariatur minus consequuntur!" },
+          { id: 2, title: "Take out the trash", subtitle: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores deserunt ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis pariatur minus consequuntur!" },
+          { id: 3, title: "Work out", subtitle: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores deserunt ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis pariatur minus consequuntur!" },
+        ],
+      }))
     },
   })
 
