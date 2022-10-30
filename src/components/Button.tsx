@@ -1,15 +1,12 @@
-import React from "react";
-
-interface IButtonProps {
-    children?: React.ReactNode;
-    props?: any;
+type IButtonProps = {
+    text?: string;
     onClick?: any;
 }
 
-const MyButton: React.FC<IButtonProps> = ({ onClick, children, ...props }) => {
+const MyButton: React.FC<IButtonProps> = ({ onClick, text }) => {
     return (
-        <button className="bg-sky-700 text-white py-2 px-4 rounded-xl" {...props} onClick={onClick}>
-            {children}
+        <button className="bg-sky-700 text-white py-2 px-4 rounded-xl" onClick={onClick}>
+            { text }
         </button>
     );
 };

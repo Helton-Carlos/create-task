@@ -21,7 +21,7 @@ function Card(props: TCard) {
         <p className="mt-2 text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores deserunt ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis pariatur minus consequuntur!</p>
       </div>
       <div className="flex justify-end mt-4">
-        <Button children="See more" onClick={addFuncion} />
+        <Button text="See more" onClick={addFuncion} />
       </div>
     </div>
   )
