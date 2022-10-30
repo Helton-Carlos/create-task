@@ -19,7 +19,7 @@ function App() {
         <div className="m-9 w-full">
           <Routes>
             <Route path="/" element={<Index />} />
-            <Route path="/Task" element={<Task />} />
+            <Route path="/task" element={<Task />} />
             <Route path="/customers" element={<Customers />} />
             <Route path="/income" element={<Income />} />
             <Route path="/promote" element={<Promote />} />

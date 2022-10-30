@@ -17,19 +17,19 @@ export function Menu() {
           <BsFillBookmarkDashFill className='mr-2' /> Dashboard
         </Link>
 
-        <Link to="/Task" className='flex items-center text-gray-500 font-medium my-2 mx-6 px-4 py-2 hover:bg-indigo-500 hover:rounded-3xl hover:text-white'>
+        <Link to="/task" className='flex items-center text-gray-500 font-medium my-2 mx-6 px-4 py-2 hover:bg-indigo-500 hover:rounded-3xl hover:text-white'>
           <AiFillShop className='mr-2' /> Task
         </Link>
 
-        <Link to="/Customers" className='flex items-center text-gray-500 font-medium my-2 mx-6 px-4 py-2 hover:bg-indigo-500 hover:rounded-3xl hover:text-white'>
+        <Link to="/customers" className='flex items-center text-gray-500 font-medium my-2 mx-6 px-4 py-2 hover:bg-indigo-500 hover:rounded-3xl hover:text-white'>
           <FaHospitalUser className='mr-2' /> Customers
         </Link>
 
-        <Link to="/Income" className='flex items-center text-gray-500 font-medium my-2 mx-6 px-4 py-2 hover:bg-indigo-500 hover:rounded-3xl hover:text-white'>
+        <Link to="/income" className='flex items-center text-gray-500 font-medium my-2 mx-6 px-4 py-2 hover:bg-indigo-500 hover:rounded-3xl hover:text-white'>
           <RiMoneyDollarCircleFill className='mr-2' /> Income
         </Link>
 
-        <Link to="/Promote" className='flex items-center text-gray-500 font-medium my-2 mx-6 px-4 py-2 hover:bg-indigo-500 hover:rounded-3xl hover:text-white'>
+        <Link to="/promote" className='flex items-center text-gray-500 font-medium my-2 mx-6 px-4 py-2 hover:bg-indigo-500 hover:rounded-3xl hover:text-white'>
           <AiFillCreditCard className='mr-2' /> Promote
         </Link>
       </div>
