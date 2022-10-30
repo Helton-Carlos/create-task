@@ -22,7 +22,7 @@ export function Index() {
         <Search />
       </div>
 
-      <div className="flex justify-between">
+      <div className="flex flex-col gap-4 md:flex-wrap md:flex-row">
         <CardTask name='Alberth' func='Web Design' />
         <Card title="Alberth" subtitle="string" />
       </div>
