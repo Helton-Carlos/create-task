@@ -18,7 +18,7 @@ export function Index() {
   return (
     <div>
       <div className="flex items-center justify-between mb-8">
-        <h1 className="font-bold text-2xl">Hello {name} 👋🏼,</h1>
+        <h2 className="font-bold text-2xl">Hello {name} 👋🏼,</h2>
         <Search />
       </div>
 
