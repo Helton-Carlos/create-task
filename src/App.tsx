@@ -10,6 +10,7 @@ import { Task } from "./pages/Task";
 import { Customers } from './pages/Customers';
 import { Income } from "./pages/Income";
 import { Promote } from "./pages/Promote";
+import { Login } from "./pages/Login"
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <Route path="/customers" element={<Customers />} />
             <Route path="/income" element={<Income />} />
             <Route path="/promote" element={<Promote />} />
+            <Route path="/login" element={<Login />} />
           </Routes>
         </div>
       </Router>
