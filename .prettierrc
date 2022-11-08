@@ -1,17 +1,4 @@
 {
   "semi": false,
-  "overrides": [
-    {
-      "files": ".prettierrc",
-      "options": {
-        "semi": true
-      }
-    },
-    {
-      "files": ["*.html", "legacy/**/*.js"],
-      "options": {
-        "tabWidth": 4
-      }
-    }
-  ]
+  "singleQuote": true
 }
