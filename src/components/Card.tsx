@@ -1,5 +1,5 @@
 import Button from './Button'
-import persona from '../assets/persona.jpg'
+import persona from '../assets/persona.png'
 
 type TCard = {
   title: string,

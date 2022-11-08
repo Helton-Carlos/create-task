@@ -1,4 +1,4 @@
-import persona from '../assets/persona.jpg'
+import persona from '../assets/persona.png'
 
 type TCardTask = {
   name?: string,
